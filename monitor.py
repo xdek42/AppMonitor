@@ -11,8 +11,10 @@ def build_monitor_script(dir, topdown = True):
 
 
 def on_message(message, data):
-    print(message)
-    print(data)
+    if message['type'] == 'send':
+        print(message['payload'])
+    elif message['type'] == 'error':
+        print(message['stack'])
 
 def main():
 

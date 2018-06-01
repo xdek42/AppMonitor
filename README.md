@@ -1,5 +1,5 @@
 # AppMonitor
-基于frida的动态检测工具，动态监控app的framework层api调用
+基于frida的动态检测工具，动态监控app的framework层api调用以及native层函数调用
 
 ## Hook列表
 
@@ -54,3 +54,6 @@ File.delete
 DevicePolicyManager.isAdminActive
 DevicePolicyManager.lockNow
 DevicePolicyManager.resetPassword
+
+### libc
+open

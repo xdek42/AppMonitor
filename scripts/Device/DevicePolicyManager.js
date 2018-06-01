@@ -3,17 +3,17 @@ Java.perform(function() {
     if (device) {
         //hook isAdminActive
         device.isAdminActive.implementation = function() {
-            console.log("call isAdminActive");
+            send("call isAdminActive");
             return this.isAdminActive.apply(this, arguments);
         };
         //hook resetPassword
         device.resetPassword.implementation = function() {
-            console.log("call resetPassword");
+            send("call resetPassword");
             return this.resetPassword.apply(this, arguments);
         };
         //hook lockNow
         device.lockNow.implementation = function() {
-            console.log("call lockNow");
+            send("call lockNow");
             return this.lockNow.apply(this, arguments);
         };
     }
