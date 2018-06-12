@@ -4,56 +4,83 @@
 ## Hook列表
 
 ### android.telephony.SmsManager
-#### sendTextMessage
-#### sendDataMessage
-#### sendMultipartTextMessage
+
+sendTextMessage
+
+sendDataMessage
+
+sendMultipartTextMessage
 
 ### android.app.admin.DevicePolicyManager
-#### getDeviceId
-#### getSubscriberId
+
+getDeviceId
+
+getSubscriberId
 
 ### java.security.MessageDigest
-#### getInstance
+
+getInstance
 
 ### javax.crypto.Cipher
-#### getInstance
+
+getInstance
 
 ### android.content.BroadcastReceiver
-#### abortBroadcast
+
+abortBroadcast
 
 ### android.app.ActivityManager
-#### getRunningAppProcesses
-#### forceStopPackage
-#### restartPackage
-#### killBackgroundProcesses
+
+getRunningAppProcesses
+
+forceStopPackage
+
+restartPackage
+
+killBackgroundProcesses
 
 ### android.content.ContentProvider
-#### query
-#### delete
+
+query
+
+delete
 
 ### org.apache.http.impl.client.AbstractHttpClient
-#### execute
+
+execute
 
 ### java.net.URL
-#### openConnection
-#### openStream
+
+openConnection
+
+openStream
 
 ### android.location.LocationManager
-#### getProvider
+
+getProvider
 
 ### android.app.ApplicationPackageManager
-#### setComponentEnabledSetting
-#### getInstalledPackages
-#### getInstalledApplications
-#### installPackage
+
+setComponentEnabledSetting
+
+getInstalledPackages
+
+getInstalledApplications
+
+installPackage
 
 ### java.io.File
-#### delete
+
+delete
 
 ### android.app.admin.DevicePolicyManager
-#### isAdminActive
-#### lockNow
-#### resetPassword
+
+isAdminActive
+
+lockNow
+
+resetPassword
 
 ### libc
-#### open
+
+open
