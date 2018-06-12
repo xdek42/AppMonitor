@@ -1,8 +1,9 @@
 Java.perform(function() {
-    var broadcastReciver = Java.use("android.content.BroadcastReceiver");
+    var cn = "android.content.BroadcastReceiver";
+    var broadcastReciver = Java.use(cn);
     if (broadcastReciver) {
         broadcastReciver.abortBroadcast.implementation = function() {
-            send("call abortBroadcast");
+            send("call " + cn + "->abortBroadcast");
             return this.abortBroadcast.apply(this, arguments);
         }
     }

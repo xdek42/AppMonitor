@@ -1,7 +1,8 @@
 Java.perform(function () {
-    var locationManager = Java.use("android.location.LocationManager");
+    var cn = "android.location.LocationManager";
+    var locationManager = Java.use(cn);
     locationManager.getProvider.implementation = function() {
-        send("call LocationManager.getProvider");
+        send("call " + cn + "->getProvider");
         return this.getProvider.apply(this, arguments);
     };
 });

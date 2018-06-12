@@ -4,56 +4,56 @@
 ## Hook列表
 
 ### android.telephony.SmsManager
-SmsManager.sendTextMessage
-SmsManager.sendDataMessage
-SmsManager.sendMultipartTextMessage
+#### sendTextMessage
+#### sendDataMessage
+#### sendMultipartTextMessage
 
 ### android.app.admin.DevicePolicyManager
-DevicePolicyManager.getDeviceId
-DevicePolicyManager.getSubscriberId
+#### getDeviceId
+#### getSubscriberId
 
 ### java.security.MessageDigest
-MessageDigest.getInstance
+#### getInstance
 
 ### javax.crypto.Cipher
-Cipher.getInstance
+#### getInstance
 
 ### android.content.BroadcastReceiver
-BroadcastReceiver.abortBroadcast
+#### abortBroadcast
 
 ### android.app.ActivityManager
-ActivityManager.getRunningAppProcesses
-ActivityManager.forceStopPackage
-ActivityManager.restartPackage
-ActivityManager.killBackgroundProcesses
+#### getRunningAppProcesses
+#### forceStopPackage
+#### restartPackage
+#### killBackgroundProcesses
 
 ### android.content.ContentProvider
-ContentProvider.query
-ContentProvider.delete
+#### query
+#### delete
 
 ### org.apache.http.impl.client.AbstractHttpClient
-AbstractHttpClient.execute
+#### execute
 
 ### java.net.URL
-URL.openConnection
-URL.openStream
+#### openConnection
+#### openStream
 
 ### android.location.LocationManager
-LocationManager.getProvider
+#### getProvider
 
 ### android.app.ApplicationPackageManager
-ApplicationPackageManager.setComponentEnabledSetting
-ApplicationPackageManager.getInstalledPackages
-ApplicationPackageManager.getInstalledApplications
-ApplicationPackageManager.installPackage
+#### setComponentEnabledSetting
+#### getInstalledPackages
+#### getInstalledApplications
+#### installPackage
 
 ### java.io.File
-File.delete
+#### delete
 
 ### android.app.admin.DevicePolicyManager
-DevicePolicyManager.isAdminActive
-DevicePolicyManager.lockNow
-DevicePolicyManager.resetPassword
+#### isAdminActive
+#### lockNow
+#### resetPassword
 
 ### libc
-open
+#### open
