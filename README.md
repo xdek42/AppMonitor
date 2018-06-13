@@ -108,3 +108,11 @@ resetPassword
 ### libc
 
 open
+
+write
+
+mmap
+
+madvise
+
+pthread_create
