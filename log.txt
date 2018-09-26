@@ -1,11 +1,47 @@
-2018-06-13 15:26 call libc->open
-2018-06-13 15:26 call libc->open
-2018-06-13 15:26 call libc->open
-2018-06-13 15:26 call android.content.ContentResolver->query_sms
-2018-06-13 15:26 call libc->open
-2018-06-13 15:26 call android.content.ContentResolver->query_call_log
-2018-06-13 15:26 call libc->open
-2018-06-13 15:26 call android.content.ContentResolver->query_contacts
-2018-06-13 15:26 call libc->open
-2018-06-13 15:26 call java.lang.Runtime->exec_su
-2018-06-13 15:26 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call android.telephony.TelephonyManager->getDeviceId
+2018-09-26 19:36 call android.telephony.TelephonyManager->getSubscriberId
+2018-09-26 19:36 call java.security.MessageDigest->getInstance for MD5
+2018-09-26 19:36 call java.security.MessageDigest->getInstance for SHA1
+2018-09-26 19:36 call java.security.MessageDigest->getInstance for SHA1
+2018-09-26 19:36 call javax.crypto.Cipher->getInstance for AES
+2018-09-26 19:36 call javax.crypto.Cipher->getInstance for AES
+2018-09-26 19:36 call javax.crypto.Cipher->getInstance for DES
+2018-09-26 19:36 call javax.crypto.Cipher->getInstance for DES
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call android.app.ApplicationPackageManager->getInstalledApplications
+2018-09-26 19:36 call android.telephony.SmsManager->sendTextMessage for +8601010010
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open
+2018-09-26 19:36 call libc->open

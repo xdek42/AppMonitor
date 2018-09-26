@@ -36,6 +36,7 @@ def start_app(apkFile, packageName, launcherActivity):
         print("[ERROR]: failed install apk")
         sys.exit(1)
     print("successfully installed apk")
+    '''
     #launch app
     cmd = "adb shell am start -n " + packageName + "/" + launcherActivity
     ret = subprocess.call(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -43,6 +44,7 @@ def start_app(apkFile, packageName, launcherActivity):
         print("[ERROR]: failed to launch app")
         sys.exit(1)
     print("successfully launched app")
+    '''
     #prepare for frida
     cmd = "adb forward tcp:27042 tcp:27042"
     ret = subprocess.call(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -65,9 +67,13 @@ def main():
     #wait for app
     time.sleep(2)
 
+    pid = None
+    device = None
     session = None
     try:
-        session = frida.get_usb_device().attach(packageName)
+        device = frida.get_usb_device()
+        pid = device.spawn([packageName])
+        session = device.attach(pid)
     except Exception as e:
         print("[ERROR]: %s" % str(e))
         sys.exit(1)
@@ -77,6 +83,7 @@ def main():
     script = session.create_script(script_content)  
     script.on("message", on_message)
     script.load()
+    device.resume(pid)
 
     #prevent the python script from terminating
     start = time.clock()
